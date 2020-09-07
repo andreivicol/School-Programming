@@ -26,3 +26,4 @@ https://www.youtube.com/watch?v=4NYC-VU-svE
 6. Learn the difference between 'std::endl' and '\n' and then stop using 'std::endl'. https://www.youtube.com/watch?v=GMqQOEZYVJQ
 7. Make use of C++11's introduction of 'range-based for'. In combination with 'auto', it makes itarations through iterable data structures as easy as Python's 'for'
 8. If sorted containers are needed, consider use of 'std::map' first
+9. When writing C++ code use C++ headers. If a header has .h extension, it is a C header and you should use C++ version. (e.g. 'cmath' instead of 'math.h', 'cctype' instead of 'ctype.h')
